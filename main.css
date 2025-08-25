@@ -1,0 +1,862 @@
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist';
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    /* position: relative;  */
+}
+
+
+
+                              /* Header */
+h1 {
+    padding-left:30px ;
+}
+
+.container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    /* padding: 1rem 2rem; */
+    background-color: transparent;
+    flex-wrap: wrap;
+    border: 1px solid #000000; 
+    border-radius: 60px; 
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+
+nav a {
+    text-decoration: none; /* Removes underline */
+    color: #333; /* Sets link color */
+    font-size: 1rem; /* Base font size */
+    font-weight: bold;
+    transition: color 0.3s ease;
+    padding: 0.5rem 1rem; /* Adds padding for a better touch target */
+}
+
+.btn {
+   padding: 10px 20px; /* Adds spacing inside the h3 element */
+   border-radius: 20px; /* Rounds the corners of the border */
+   background-color: black; /* Sets the background color to black */
+   color: white; /* Sets the text color to contrast the background */
+   text-align: center; /* Centers the text inside the h3 */
+   display: inline-block; /* Makes the h3 width fit its content */
+   font-size: 15px;
+   margin-right: 50px;
+   cursor: pointer;
+}
+.btn a {
+    color: white; /* Makes the text inside the button white */
+    text-decoration: none; /* Removes underline from the link */
+    font-weight: bold;
+    display: inline-block; /* Allows better spacing inside */
+    
+}
+a:hover {
+    color: #007bff; /* Change color on hover */
+}
+                      /* End of Header */  
+
+
+                     
+                     
+                     
+                      /* Middle Header */
+
+h2{
+    margin-left: 600px;
+    margin-top: 70px;
+}
+
+h4{
+    margin-left: 340px;
+    font-size: 70px;
+    margin-top: -10px;
+}
+
+.intro {
+    /* margin: 50px; */
+    /* font-weight: bold;  */
+    font-size: 18px; 
+    text-align: center; 
+    color: #333; 
+    margin-top: -90px;
+    margin-left: 100px;
+}
+
+/* End of Middle Header */
+
+
+
+.profile-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .profile-img {
+    width: 200px;
+    height: 240px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+    animation: grow-shrink 2s infinite alternate ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .profile-img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Animation */
+  @keyframes grow-shrink {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+
+
+
+/* .profile-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: -5px; 
+    margin-top: 40px;
+}
+
+.profile-img {
+    width: 210px;
+    height: 300px;
+    border-radius: 10%;
+} */
+
+                        /* Profile Image */
+
+/* .whatsapp-btn {
+    text-decoration: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    background-color: #25d366; 
+    padding: 10px 15px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition:background 0.3s ease-in-out;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebe5d; 
+}
+
+.whatsapp-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.whatsapp-text {
+    font-size: 16px;
+    margin-left: 8px;
+    color: #ffffff;
+    font-weight: bold;
+}    */
+
+
+.profile-img2{
+    width: 300px;
+    height: 360px;
+    border-radius: 10%;
+    margin-left: 30px;
+    
+
+}
+
+.aboutme{
+    background-color: #ffffff;
+    width: 900px;
+    height: 670px;
+    border-radius:3% ;
+    margin-left: 250px;
+    margin-top: 90px;
+    border: 1px solid #000000; 
+    
+}
+
+h6{
+    margin-left: 380px;
+    padding-top: -10px;
+    font-size: 27px;
+}
+
+
+.txte{
+    margin-left:400px ;
+    font-size:20px;
+    margin-top: -350px ;
+
+    
+}
+
+.conts{
+    margin-left:400px ;
+    font-size:27px;
+    font-weight:400;
+}
+
+.vpnt{
+    margin-left:375px ;
+    font-size:20px;
+    font-weight: 400;
+}
+
+
+
+
+
+.download {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-left: 700PX;
+    margin-top:30px;
+}
+
+/* Hover effect */
+.download:hover {
+    background-color: #333;
+}
+
+
+/* Center the button */
+.CV {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.service{
+    margin-top: 90px;
+    margin-left: 630px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.servicess{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+
+.web {
+    display: flex;
+    justify-content: center; /* Centers images horizontally */
+    align-items: center; /* Aligns images vertically */
+    gap: 20px; /* Adds spacing between images */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    margin: 50px auto; /* Centers the container */
+}
+
+/* Individual Boxes */
+.web-box {
+    background-color: #ffffff; /* Light grey background */
+    padding: 20px; /* Adds padding around each image */
+    border-radius: 15px; /* Rounded corners */
+    width: 180px; /* Set width for each box */
+    height: 220px; /* Set height for each box to accommodate text */
+    display: flex;
+    flex-direction: column; /* Stacks image and text vertically */
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid #000000; 
+}
+
+/* Images */
+.web-img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; /* Ensures image fills space */
+    border-radius: 10px; 
+}
+
+/* Text Below Images */
+.web-text {
+    margin-top: 10px; /* Adds spacing between image and text */
+    font-size: 16px; /* Sets text size */
+    font-weight: bold; /* Makes text bold */
+    color: #333; /* Dark grey text */
+    text-align: center; /* Centers text */
+}
+
+/* Hover effect */
+.web-box:hover {
+    transform: scale(1.05); /* Slightly enlarges on hover */
+    background-color: #007bff; /* Darker grey on hover */
+}
+
+
+.bew {
+    display: flex;
+    justify-content: center; /* Centers images horizontally */
+    align-items: center; /* Aligns images vertically */
+    gap: 20px; /* Adds spacing between images */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    margin: 50px auto; /* Centers the container */
+}
+
+/* Individual Boxes */
+.bew-box {
+    background-color: #ffffff; /* Light grey background */
+    padding: 20px; /* Adds padding around each image */
+    border-radius: 15px; /* Rounded corners */
+    width: 180px; /* Set width for each box */
+    height: 220px; /* Set height for each box to accommodate text */
+    display: flex;
+    flex-direction: column; /* Stacks image and text vertically */
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid #000000; 
+}
+
+/* Images */
+.bew-img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; /* Ensures image fills space */
+    border-radius: 10px; 
+}
+
+/* Text Below Images */
+.bew-text {
+    margin-top: 10px; /* Adds spacing between image and text */
+    font-size: 16px; /* Sets text size */
+    font-weight: bold; /* Makes text bold */
+    color: #333; /* Dark grey text */
+    text-align: center; /* Centers text */
+}
+
+/* Hover effect */
+.bew-box:hover {
+    transform: scale(1.05); /* Slightly enlarges on hover */
+    background-color: #007bff; /* Darker grey on hover */
+}
+
+
+
+.skills{
+    margin-top: 90px;
+    margin-left: 650px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.tcts{
+    font-size: 20px;
+    text-align: center;
+    /* border: 1px solid #ccc;  */
+    /* border-radius: 10px;  */
+}
+
+.blogs{
+    margin-top: 90px;
+    margin-left: 650px;
+    font-size: 27px;
+    font-weight: bold;
+
+}
+
+.bloggs{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.contats{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+.containers {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+/* Skill Bar Container */
+.skill {
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill h3 {
+    margin: 0 0 5px;
+    font-size: 18px;
+    color: #444;
+}
+
+
+
+/* contacts */
+.contact{
+    margin-top: 90px;
+    margin-left: 600px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.picss{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-left: 280px ;
+    margin-top: 90px;
+    border: 1px solid #c4c0c0;
+}
+
+.phone{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin-left: 115px ;
+    margin-bottom: 220px;
+}
+
+.hel{
+    font-size: 15px;
+    margin-top: -243px;
+    margin-left:638px ;
+    
+}
+
+.num{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left:610px ;
+    
+}
+
+
+.mail{
+    height: 25px;
+    width: 25px;
+    margin-top: 30px;
+    margin-left:600px ;
+    
+}
+
+.email{
+    font-size: 15px;
+    margin-top: -25px;
+    margin-left:635px ;
+    
+}
+
+
+.beks{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left:600px ;
+}
+
+.loca{
+    height: 25px;
+    width: 25px;
+    margin-top: 30px;
+    margin-left:600px ;
+
+}
+
+.locs{
+    font-size: 15px;
+    margin-top: -25px;
+    margin-left:635px ;
+    
+}
+
+.locc{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 600px ;  
+}
+
+
+
+
+.abouts a{
+    color: #333;
+    font-size: 1rem; /* Base font size */
+    font-weight: bold;
+}
+
+.abouts{
+    margin-left: 1000px;
+    margin-top:-220px ;
+
+}
+.abouts :hover{
+    color: #007bff;
+}
+
+
+
+
+
+.skille a{
+    color: #333;
+    font-size: 1rem; /* Base font size */
+    font-weight: bold;  
+}
+
+.skille{
+    margin-left: 1008px;
+    margin-top: 30px ;
+
+}
+.skille :hover{
+    color: #007bff;
+}
+
+
+.proj a{
+    color: #333;
+    font-size: 1rem; /* Base font size */
+    font-weight: bold;
+}
+
+.proj{
+    margin-left: 1115px;
+    margin-top: -68px ;
+
+}
+.proj :hover{
+    color: #007bff;
+}
+
+
+
+.blog a{
+    color: #333;
+    font-size: 1rem; /* Base font size */
+    font-weight: bold;
+}
+
+.blog{
+    margin-left: 1115px;
+    margin-top: 30px ;
+
+}
+.blog :hover{
+    color: #007bff;
+}
+
+/* Container for the images */
+/* Container for the images */
+.social-icons {
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Centers the items horizontally */
+    align-items: center; /* Aligns the items vertically in the middle */
+    gap: 30px; /* Adds space between the icons */
+    margin-left: 830px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
+  /* Style for individual icons */
+  .social-icons img {
+    width: 20px; /* Set a very small width for the images */
+    height: 20px; /* Set a very small height to maintain the aspect ratio */
+    transition: transform 0.3s ease; /* Add a transition effect for hover */
+    
+  }
+  
+  /* Optional: Hover effect */
+  .social-icons img:hover {
+    transform: scale(1.2); /* Slightly enlarge the icon when hovered */
+  }
+  
+  
+
+
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    border: 1px solid #000000; 
+}
+
+
+/* Contact Form */
+.contact-form {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-form p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Form Inputs */
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-control {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+.btn-submit {
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #007bff;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-image img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        flex-direction: column;
+    }
+}
+
+
+.counter-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Container */
+.containeree {
+    width: 200px;
+    margin: auto;
+}
+
+/* Row */
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Counter Box */
+.counter-box {
+    
+    color: black;
+    
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.counter-box:hover {
+    color: #007bff; /* Hover effect */
+    border-color: #007bff;
+}
+
+/* Numbers */
+.number {
+    font-size: 36px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Span Text */
+.counter-box span {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-6 {
+    width: 300px;
+    padding: 15px;
+    margin-left: 220px;
+  }
+  
+ .h3p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .progress-wrap {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .progress {
+    background-color: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  .progress-bar span {
+    font-size: 12px;
+    z-index: 2;
+  }
+  
+  /* Black and White progress bar colors */
+  .color-1 {
+    background-color: #000;
+  }
+  
+  .color-2 {
+    background-color: #333;
+  }
+  
+  .color-3 {
+    background-color: #666;
+  }
+  
+  .color-4 {
+    background-color: #999;
+  }
+  
+  .color-5 {
+    background-color: #ccc;
+  }
+  
+  .color-6 {
+    background-color: #333;
+  }
+  
+  /* Animation */
+  @keyframes animate-bar {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  .ftco-animate {
+    animation: animate-bar 1s ease-in-out forwards;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+      
+
+    
+   
